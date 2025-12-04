@@ -17,10 +17,11 @@ header{
 }
 .logo{
     width: 212px;
+    margin-left: -10px;
 }
 
-.menu-mobile{
-    gap: 195px;
+.menu-mobile {
+    gap: 136px;
 }
 .menu-scroll {
     gap: 50px;
@@ -39,13 +40,12 @@ header{
     opacity: 0.7;
 }
 .header-btn{
-    gap: 18px;
+    gap: 20px;
 }
-.header-btn .btn{
-   padding: 12px 30px;
+.header-btn .btn {
+    padding: 13px 30px;
     font-size: 15px;
     height: auto;
-
 }
 .open-menu{
     display: none;
@@ -189,9 +189,12 @@ header{
 
     .menu-name-mob .logo{
         margin-top: -5px;
-        margin-left: -6px;
+        margin-left: -16px;
     }
-
+    .header-btn .btn {
+        padding: 13px 30px;
+        font-size: 12px;
+    }
 
 
     .header-main {
@@ -202,6 +205,9 @@ header{
         font-size: 12px;
         font-weight: 400;
         line-height: 10px;
+    }
+    header .btn-login {
+        font-size: 12px;
     }
 }
 
